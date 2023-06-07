@@ -1,0 +1,137 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+:root {
+
+  --bg-color: #E5E5E5;
+  --primary-color: #29292E;
+  --bg-imgcolor: #02799D;
+  
+  font-size: 62.5%;
+
+}
+
+body {
+
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+ 
+}
+
+main {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+  width: 100%;
+  max-width: 82.1rem;
+  height: 100%;
+  max-height: 33.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 19.6rem 22.6rem 18.8rem 23.3rem;
+  
+}
+
+.timer{
+  width: 100%;
+  max-width: 32.1rem;
+  height: 100%;
+  max-height: 21.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 19.2rem;
+ 
+}
+
+.controls{
+  display: flex;
+  gap: 40px;
+}
+
+
+button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  margin-top: 4.8rem;
+}
+
+
+span {
+  font-size: 11.8854rem;
+  line-height: 9.25rem;
+}
+
+.box-1,
+.box-2{
+  display: flex;
+}
+
+.box{
+  cursor: pointer;
+}
+
+.tree{
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
+
+.rain{
+  margin-right: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 2rem;
+    flex-direction: column;
+  }
+
+  .timer {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .controls {
+    gap: 20px;
+  }
+
+  span {
+    font-size: 64px;
+    line-height: 74px;
+  }
+}
+
+.active img {
+  box-shadow: #02799D 0px 0px 30px 0px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.ativo{
+  background-color: #02799D;
+  border-radius: 50%;
+
+}
+
+  
+
+ 
